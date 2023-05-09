@@ -1,0 +1,14 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+  }
+}
